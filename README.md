@@ -83,7 +83,9 @@ The backend is built using Node.js and Express.js to handle API requests and dat
   warranty: string,
 }
 
-###Folder Structure:
+## 📁 Folder Structure
+
+```bash
 backend/
   models/
   routes/
@@ -95,4 +97,3 @@ frontend/
     components/
     pages/
     services/
-
