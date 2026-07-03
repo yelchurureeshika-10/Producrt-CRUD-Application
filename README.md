@@ -27,14 +27,14 @@ The goal of this project is to understand how frontend, backend, and database wo
   
 ##Frontend Implementation (React.js):
 
-The frontend is built using React.js to provide a simple user interface for managing products.
-Created components for Product List, Add Product, and Edit Product
-Used Axios to connect with backend APIs
-Displayed all products in a list format
-Implemented forms for adding and updating products
-Used state management (useState, useEffect) to handle data and UI updates
-After every CRUD operation, the UI updates automatically
-Added simple success and error alerts for user feedback
+- The frontend is built using React.js to provide a simple user interface for managing products.
+- Created components for Product List, Add Product, and Edit Product
+- Used Axios to connect with backend APIs
+- Displayed all products in a list format
+- Implemented forms for adding and updating products
+- Used state management (useState, useEffect) to handle data and UI updates
+- After every CRUD operation, the UI updates automatically
+- Added simple success and error alerts for user feedback
 
 ### Backend (Node.js + Express.js)
 - REST API for all CRUD operations
@@ -74,7 +74,7 @@ The backend is built using Node.js and Express.js to handle API requests and dat
 | DELETE | /api/products/:id   | Delete product     |
 
 
-##  Product Schema
+###  Product Schema
 {
   name: String,
   price: Number,
@@ -83,7 +83,7 @@ The backend is built using Node.js and Express.js to handle API requests and dat
   warranty: string,
 }
 
-##Folder Structure:
+###Folder Structure:
 backend/
   models/
   routes/
