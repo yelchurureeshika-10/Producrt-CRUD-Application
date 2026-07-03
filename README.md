@@ -41,7 +41,7 @@ The goal of this project is to understand how frontend, backend, and database wo
 - Input validation (no empty fields allowed)
 - Proper error handling
 
-## ImplemeBackendntation (node.js+express.js):
+## Backend Implementation (node.js+express.js):
 The backend is built using Node.js and Express.js to handle API requests and database operations.
 - Created REST APIs for CRUD operations:
 - POST → Create product
@@ -73,17 +73,19 @@ The backend is built using Node.js and Express.js to handle API requests and dat
 | PUT    | /api/products/:id   | Update product     |
 | DELETE | /api/products/:id   | Delete product     |
 
-
 ###  Product Schema
+
+```js
 {
   name: String,
   price: Number,
   category: String,
   description: String,
-  warranty: string,
+  warranty: String
 }
+```
 
-## 📁 Folder Structure
+##  Folder Structure
 
 ```bash
 backend/
