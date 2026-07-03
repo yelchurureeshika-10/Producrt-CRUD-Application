@@ -63,6 +63,7 @@ The backend is built using Node.js and Express.js to handle API requests and dat
   - category
   - description
   - warranty
+  - created At
 
 ##  API Endpoints
 
@@ -82,6 +83,7 @@ The backend is built using Node.js and Express.js to handle API requests and dat
   category: String,
   description: String,
   warranty: String
+  createdAt:Date
 }
 ```
 
